@@ -1,0 +1,11 @@
+let car = {
+    name:'Toyota Fortuner',
+    price:'30 Lakh',
+    type:'SUV',
+    mileage:"10kmpl"
+}
+let carCopy = {};
+for(title in car){
+    carCopy[title] = car[title];
+}
+console.log(carCopy);
