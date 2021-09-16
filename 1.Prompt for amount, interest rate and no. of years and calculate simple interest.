@@ -1,0 +1,4 @@
+let p = prompt("Enter Amount");
+let r = prompt("Enter Interest Rate");
+let t = prompt("Enter Number Of Years");
+alert("The Simple Interest is "+ (p*t*r)/100);
