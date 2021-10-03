@@ -1,0 +1,9 @@
+arguments.callee
+Reference to the currently executing function that the arguments belong to. Forbidden in strict mode.
+
+arguments.length
+The number of arguments that were passed to the function.
+
+arguments[@@iterator]
+Returns a new Array iterator object that contains the values for each index in arguments.
+
